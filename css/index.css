@@ -106,8 +106,8 @@ header nav img {
     margin: 1rem 0;
 }
 
-/* closing header */
 
+/* container content of home page */
 
 .top-content {
     display: flex;
@@ -149,7 +149,7 @@ header nav img {
     justify-content: center;
 }
 
-/* adding color to boxes */
+/* adding color boxes */
 
 .box1 {
     background:teal;
@@ -191,6 +191,8 @@ header nav img {
     background: dodgerblue;
 }
 
+/* bottom content of home page */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -204,6 +206,8 @@ header nav img {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* footer of home page */
 
 footer {
     width: 100%;
@@ -245,7 +249,7 @@ footer nav a {
     width: inherit;
 }
 
-/* sections */
+/* sections of about page */
 
 .ap-first-sec {
     display: flex;
@@ -288,7 +292,7 @@ footer nav a {
     padding: 2rem 0;
 }
 
-/* footer */
+/* footer of about page */
 
 .ap-footer nav {
     padding: 20px 2%;
