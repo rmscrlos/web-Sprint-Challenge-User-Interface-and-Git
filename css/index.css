@@ -66,10 +66,48 @@ p {
     line-height: 1.4;
 }
 
-.container {
+body {
     width: 800px;
     margin: 0 auto;
 }
+
+/* Header */
+header {
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+nav {
+    padding: 1.2rem 0;
+    display: flex;
+    align-items: baseline;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 2.5rem .5rem 2.5rem;
+}
+
+
+header nav img {
+    position: relative;
+    top: 2px;
+}
+
+/* img */
+
+.header-img {
+    margin: 1rem 0;
+}
+
+
+/* container content of home page */
 
 .top-content {
     display: flex;
@@ -104,13 +142,56 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* adding color boxes */
+
+.box1 {
+    background:teal;
+}
+
+.box2 {
+    background: gold;
+} 
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+} 
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+/* bottom content of home page */
 
 .bottom-content {
     display: flex;
@@ -125,6 +206,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* footer of home page */
 
 footer {
     width: 100%;
@@ -143,4 +226,78 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About Page */
+
+.about-page {
+    width: 100%;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+}
+
+.about-text {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+
+.line {
+    border-top: 2px dotted #000;
+    width: inherit;
+}
+
+/* sections of about page */
+
+.ap-first-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ap-second-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-container {
+    border-bottom: 2px dotted #000;
+    margin: 1rem 1rem;
+    width: 45%;;
+}
+
+.section-container h3 {
+    padding-top: 1rem;
+}
+
+.section-container a {
+    margin: 1rem 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    padding: .5rem 1.2rem;
+    background: #fff;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+.section-container a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.ap-btm-content {
+    padding: 2rem 0;
+}
+
+/* footer of about page */
+
+.ap-footer nav {
+    padding: 20px 2%;
+}
+
+.ap-footer nav a {
+    margin: 0;
 }
