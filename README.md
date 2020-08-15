@@ -34,7 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    -Semantic HTML gives meaning to code and content.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    -  ```Display: block;``` will give its element the ability to occupied its entire space within its parent. ```display: inline``` allows element take up as much space as its content needs.
 
 3. What are the 4 areas of the box model?
 
